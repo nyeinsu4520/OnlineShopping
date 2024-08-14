@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.category-button  {
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+}
+
+.category-button-group ::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar for WebKit browsers */
+}
